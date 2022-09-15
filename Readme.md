@@ -610,6 +610,9 @@ file_name = 'Dataset_Questions_With_Keywords.xlsx'
 # saving the excel
 df_questions.to_excel(uniquify(file_name))
 ```
+## HACK TO INCREASE ACCURACY OF KEYWORDS ( NOT DONE IN CODE :)
+
+##### We could Create a database of KeyWords in crypto, and after detecting keywords in the post we could cross match it with the keywords in our database so that only crypto related words are shown as tags
 
 ## Other Aproaches:
 
